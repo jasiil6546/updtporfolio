@@ -12,4 +12,14 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  nitro: {
+    // Dynamically target Vercel if running in a Vercel build environment
+    preset: process.env.VERCEL ? "vercel" : undefined,
+    // Restore Vercel default directories so the wrapper doesn't override them with "dist"
+    output: process.env.VERCEL ? {
+      dir: ".vercel/output",
+      serverDir: ".vercel/output/functions/__nitro.func",
+      publicDir: ".vercel/output/static",
+    } : undefined,
+  },
 });
