@@ -18,7 +18,7 @@ export default defineConfig({
     // Restore Vercel default directories so the wrapper doesn't override them with "dist"
     output: process.env.VERCEL ? {
       dir: ".vercel/output",
-      serverDir: ".vercel/output/functions/__nitro.func",
+      serverDir: ".vercel/output/functions/__server.func",
       publicDir: ".vercel/output/static",
     } : undefined,
   },
