@@ -14,9 +14,9 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Mohamed Jasil — Full Stack Developer" },
-      { name: "description", content: "Full Stack Developer specializing in MERN, Python/Django and MySQL. Based in Kerala, India." },
+      { name: "description", content: "Full Stack Developer specializing in Next.js, React, MERN stack, and modern JavaScript web experiences. Based in Kerala, India." },
       { property: "og:title", content: "Mohamed Jasil — Full Stack Developer" },
-      { property: "og:description", content: "Full Stack Developer specializing in MERN, Python/Django and MySQL." },
+      { property: "og:description", content: "Full Stack Developer specializing in Next.js, React, MERN stack, and modern JavaScript web experiences." },
     ],
   }),
   component: Index,

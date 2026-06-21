@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { HeroVideo } from "./HeroVideo";
 
-const ROLES = ["Developer", "Engineer", "Founder", "Student"];
+const ROLES = ["Full Stack Developer", "Next.js Developer", "JavaScript Engineer", "Software Engineer"];
 
 export function Hero() {
   const [roleIdx, setRoleIdx] = useState(0);
@@ -56,7 +56,7 @@ export function Hero() {
           based in Kerala, India.
         </p>
         <p className="blur-in text-sm md:text-base text-muted max-w-md mb-12">
-          Full Stack Developer crafting MERN, Django and modern web experiences from concept to deployment.
+          Full Stack Developer crafting Next.js, MERN stack, and modern JavaScript web experiences from concept to deployment.
         </p>
 
         <div className="blur-in inline-flex flex-wrap justify-center gap-4">
