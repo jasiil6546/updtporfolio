@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { HeroVideo } from "./HeroVideo";
 
 const SOCIALS = [
-  { label: "Twitter", href: "#" },
+  { label: "Instagram", href: "https://www.instagram.com/j_aaziel/" },
   { label: "LinkedIn", href: "www.linkedin.com/in/mjasil" },
   { label: "GitHub", href: "https://github.com/jasiil6546" },
   { label: "Dribbble", href: "#" },

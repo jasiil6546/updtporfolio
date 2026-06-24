@@ -1,12 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const ITEMS = [
-  { img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80", rot: -3 },
-  { img: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&q=80", rot: 2 },
-  { img: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&q=80", rot: -2 },
-  { img: "https://images.unsplash.com/photo-1561070791-2526d30994b8?w=600&q=80", rot: 3 },
-  { img: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=600&q=80", rot: -2 },
-  { img: "https://images.unsplash.com/photo-1635322966219-b75ed372eb01?w=600&q=80", rot: 2 },
+  { img: "/images/exploration-1.png", rot: -3 },
+  { img: "/images/exploration-2.png", rot: 2 },
+  { img: "/images/exploration-3.png", rot: -2 },
+  { img: "/images/exploration-4.png", rot: 3 },
 ];
 
 export function Explorations() {
