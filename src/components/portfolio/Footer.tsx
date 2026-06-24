@@ -3,8 +3,8 @@ import { HeroVideo } from "./HeroVideo";
 
 const SOCIALS = [
   { label: "Twitter", href: "#" },
-  { label: "LinkedIn", href: "#" },
-  { label: "GitHub", href: "#" },
+  { label: "LinkedIn", href: "www.linkedin.com/in/mjasil" },
+  { label: "GitHub", href: "https://github.com/jasiil6546" },
   { label: "Dribbble", href: "#" },
 ];
 
