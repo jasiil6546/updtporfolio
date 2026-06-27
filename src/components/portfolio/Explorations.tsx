@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const ITEMS = [
-  { img: "/images/exploration-1.png", rot: -3 },
-  { img: "/images/exploration-2.png", rot: 2 },
-  { img: "/images/exploration-3.png", rot: -2 },
-  { img: "/images/exploration-4.png", rot: 3 },
+  { img: "/images/img1.png", rot: -3 },
+  { img: "/images/img2.png", rot: 2 },
+  { img: "/images/img3.jpg", rot: -2 },
+  { img: "/images/img4.png", rot: 3 },
 ];
 
 export function Explorations() {
