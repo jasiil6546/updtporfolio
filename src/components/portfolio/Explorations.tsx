@@ -5,6 +5,10 @@ const ITEMS = [
   { img: "/images/img2.png", rot: 2 },
   { img: "/images/img3.jpg", rot: -2 },
   { img: "/images/img4.png", rot: 3 },
+  { img: "/images/img5.png", rot: -1 },
+  { img: "/images/Marathon.jpeg", rot: 2 },
+  { img: "/images/techverse.jpeg", rot: -2 },
+  { img: "/images/momentor.in_.png", rot: 1 },
 ];
 
 export function Explorations() {
@@ -102,9 +106,9 @@ export function Explorations() {
                 key={i}
                 onClick={() => setLightbox(it.img)}
                 style={{ transform: `rotate(${it.rot}deg)` }}
-                className="block aspect-square max-w-[320px] w-full rounded-2xl overflow-hidden border border-stroke pointer-events-auto hover:scale-105 transition-transform"
+                className="block aspect-square max-w-[320px] w-full rounded-2xl overflow-hidden border border-stroke pointer-events-auto hover:scale-105 transition-transform bg-[#1a1a1a]"
               >
-                <img src={it.img} alt="" className="w-full h-full object-cover" />
+                <img src={it.img} alt="" className="w-full h-full object-contain" />
               </button>
             ))}
           </div>
@@ -114,9 +118,9 @@ export function Explorations() {
                 key={i}
                 onClick={() => setLightbox(it.img)}
                 style={{ transform: `rotate(${it.rot}deg)` }}
-                className="block aspect-square max-w-[320px] w-full rounded-2xl overflow-hidden border border-stroke pointer-events-auto hover:scale-105 transition-transform"
+                className="block aspect-square max-w-[320px] w-full rounded-2xl overflow-hidden border border-stroke pointer-events-auto hover:scale-105 transition-transform bg-[#1a1a1a]"
               >
-                <img src={it.img} alt="" className="w-full h-full object-cover" />
+                <img src={it.img} alt="" className="w-full h-full object-contain" />
               </button>
             ))}
           </div>
