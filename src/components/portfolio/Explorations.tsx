@@ -6,9 +6,7 @@ const ITEMS = [
   { img: "/images/img3.jpg", rot: -2 },
   { img: "/images/img4.png", rot: 3 },
   { img: "/images/img5.png", rot: -1 },
-  { img: "/images/Marathon.jpeg", rot: 2 },
-  { img: "/images/techverse.jpeg", rot: -2 },
-  { img: "/images/momentor.in_.png", rot: 1 },
+
 ];
 
 export function Explorations() {
